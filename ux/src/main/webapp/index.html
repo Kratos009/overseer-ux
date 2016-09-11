@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html data-ng-app="overseer">
+<head>
+<meta charset="UTF-8">
+<title>Overseer</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<base href="/"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
+<link rel="stylesheet" href="/ux/angular-material/angular-material.min.css"/>
+<link rel="stylesheet" href="/ux/login/login.css"/>
+<link rel="stylesheet" href="/ux/overseer.css"/>
+<script>
+   var Overseer = {};
+   Overseer.responseCode = 1000;
+</script>
+</head>
+
+<body data-ng-controller="overseerController" data-ng-cloak="" class="overseer">
+
+  <div class="header">
+  </div>
+  <div data-ng-if="templateState === 'LOGIN'" data-login-view=""></div>
+  
+  <script src="/ux/angular/angular.min.js"></script>
+  <script src="/ux/angular/angular-animate.min.js"></script>
+  <script src="/ux/angular/angular-route.min.js"></script>
+  <script src="/ux/angular/angular-aria.min.js"></script>
+  <script src="/ux/angular/angular-messages.min.js"></script>
+  <script src="/ux/angular-material/angular-material.min.js"></script>
+  
+  <script src="/ux/login/login-constants.js"></script>
+  <script src="/ux/login/login-factory.js"></script>
+  <script src="/ux/login/login-service.js"></script>
+  <script src="/ux/login/login-controller.js"></script>
+  <script src="/ux/login/login-directive.js"></script>
+  <script src="/ux/login/login-module.js"></script>
+  
+  <script src="/ux/overseer-constants.js"></script>
+  <script src="/ux/overseer-interceptors.js"></script>
+  <script src="/ux/overseer-config.js"></script>
+  <script src="/ux/overseer-controller.js"></script>
+  <script src="/ux/overseer.js"></script>
+  
+  
+</body>
+</html>

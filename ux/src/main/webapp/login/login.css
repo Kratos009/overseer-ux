@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.login-form {
+	padding-top: 30px !important;
+	font-family: Opensans_Semibold;
+	font-size: 15px;
+}
+
+.login-form md-input-container {
+	margin: 0px !important;
+	width: 90%;
+}
+
+.login-form input {
+	font-size: 16px;
+	font-family: Opensans;
+}
+
+.login-username-icon{
+	color: #03A9F4;
+}
+
+.login-password-icon{
+	color: #03A9F4;
+}
+
+.login-register-button{
+	color: #FFFFFF !important;
+}

@@ -1,0 +1,27 @@
+<div style="padding: 20px;" class="login">
+	<div data-md-whiteframe="9" data-layout="column" flex="30" data-layout-padding="">
+	<md-content class="md-no-momentum login-form"  data-layout="column" flex data-layout-align="center center">
+			<md-input-container md-no-float="" class="md-block" flex="100"> 
+			  <md-icon md-svg-src="/ux/icons/ic_person_24px.svg" class="login-username-icon"></md-icon>
+			  <input required name="username" data-ng-model="user.username" placeholder="Username">
+			</md-input-container>
+			<md-input-container md-no-float="" class="md-block" flex="100"> 
+			  <md-icon md-svg-src="/ux/icons/ic_vpn_key_24px.svg" class="login-password-icon"></md-icon>
+			  <input required type="password" name="password" data-ng-model="user.password" placeholder="Password">
+			</md-input-container>
+			<!-- <md-input-container md-no-float="" class="md-block" flex="100"> 
+			  <md-checkbox data-ng-model="user.rememberMe" data-ng-true-value="'YES'"
+			               data-ng-false-value="'NO'" class="md-primary" > Remember my Username</md-checkbox>
+			</md-input-container> -->
+			<md-input-container layout-align="center center">
+			<div layout="row" layout-sm="column" layout-margin>
+				<md-button class="md-raised" >Login</md-button>
+				<md-button  class="md-raised md-primary login-register-button" >Register</md-button>
+			</div>
+			</md-input-container>
+			
+		
+	</md-content>
+	</div>
+</div>
+
